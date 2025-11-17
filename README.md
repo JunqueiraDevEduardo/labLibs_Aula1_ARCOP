@@ -51,4 +51,5 @@ git@github.com:miguelleitao/lablibs.git
     ls -l calc5
     ldd calc5
     ./calc5 11 + 55
-
+    
+à medida que avanço de calc0 a calc5, o que o nm -W -g mostra muda porque mudos o modelo de ligação: tudo dentro de um único binário, depois objetos separados, depois biblioteca estática, binário totalmente estático, biblioteca partilhada e, por fim, carregamento dinâmico com dlopen/dlsym;
